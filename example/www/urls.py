@@ -1,8 +1,7 @@
 from django.urls import path
-
-from example.unicorn.components.direct_view import DirectViewView
-from example.unicorn.components.redirects import RedirectsView
-from example.www import views
+from unicorn.components.direct_view import DirectViewView
+from unicorn.components.redirects import RedirectsView
+from www import views
 
 
 app_name = "www"
